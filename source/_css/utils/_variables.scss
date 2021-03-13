@@ -6,23 +6,25 @@ $open-sans:            'Open Sans';
 $open-sans-sans-serif: 'Open Sans', sans-serif;
 $merriweather-serif:   'Merriweather', serif;
 $monospace:             Menlo, Consolas, monospace;
+$noto-serif-tc:        'Noto Serif TC', '微軟正黑體';
+$merriweather-serif-noto-serif-tc:        'Noto Serif TC', '微軟正黑體';
 
-$font-family-base: $open-sans-sans-serif;
+$font-family-base: $noto-serif-tc;
 
 $font-families: (
    // base
-   'headings':          $open-sans-sans-serif,
+   'headings':          $noto-serif-tc,
    // components
    'code':              $monospace,
-   'caption':           $merriweather-serif,
-   'image-gallery':     $open-sans,
-   'post-header-cover': $merriweather-serif,
-   'post-meta':         $open-sans-sans-serif,
-   'post-content':      $merriweather-serif,
-   'post-excerpt-link': $open-sans-sans-serif,
+   'caption':           $merriweather-serif-noto-serif-tc,
+   'image-gallery':     $noto-serif-tc,
+   'post-header-cover': $merriweather-serif-noto-serif-tc,
+   'post-meta':         $noto-serif-tc,
+   'post-content':      $merriweather-serif-noto-serif-tc,
+   'post-excerpt-link': $noto-serif-tc,
    'highlight':         $monospace,
    // layout
-   'sidebar':           $open-sans-sans-serif
+   'sidebar':           $noto-serif-tc
 );
 
 // equal to 15px
@@ -150,7 +152,7 @@ $sidebar: (
     'lg-screen-width':  250px,
     'xlg-screen-width': 500px,
     'background':       rgba(17, 26, 35, 0),
-    'color':            #ebebeb
+    'color':            #111113
 );
 
 // Main

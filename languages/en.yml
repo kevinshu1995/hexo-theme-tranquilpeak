@@ -13,6 +13,7 @@ global:
     author_picture: "Author's picture"
     github: "GitHub"
     stack_overflow: "Stack Overflow"
+    personal_site: "Personal Website"
     twitter: "Twitter"
     facebook: "Facebook"
     google_plus: "Google +"
@@ -81,6 +82,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: ""
+    bio: "Hi! I am Kevin Hsu, working on Web Designer and F2E. Love music, series and video games. Nice to meet you."
     # Your job
-    job: ""
+    job: "Web Designer / Front End Engineer"
